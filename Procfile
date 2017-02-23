@@ -1,1 +1,1 @@
-web: gunicorn Errands.wsgi:application --log-file -
+web: gunicorn Errands.wsgi

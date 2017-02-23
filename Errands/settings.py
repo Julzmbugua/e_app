@@ -25,7 +25,7 @@ SECRET_KEY = 'q)z5gl=-_fdc%($ms=r7a7a$g@4+(vqga_u=-+&0i)2090nnjh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['errands-app.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'errands-app.herokuapp.com']
 
 
 # Application definition
@@ -119,4 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = 'main/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static', 'static_root')
