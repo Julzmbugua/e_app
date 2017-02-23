@@ -25,7 +25,7 @@ SECRET_KEY = 'q)z5gl=-_fdc%($ms=r7a7a$g@4+(vqga_u=-+&0i)2090nnjh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['errands-app.herokuapp.com']
 
 
 # Application definition
