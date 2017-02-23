@@ -1,2 +1,11 @@
 from django.shortcuts import render
-from .models import Services
+
+
+def index(request):
+
+
+
+	# c_aption = About.objects.order_by('publish_date')[0]
+
+
+	return render(request, 'index.html')
